@@ -36,7 +36,7 @@ function Projects({ projects}: Props) {
                             {project?.title}
                         </h4>
 
-                        <div className='felx flex-row items-center space-x-2 justify-center'>
+                        <div className='flex items-center space-x-2 justify-center'>
                             {project?.technologies.map(technology =>(
                                 <img 
                                 className='h-10 w-10'
